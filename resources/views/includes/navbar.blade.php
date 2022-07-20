@@ -15,7 +15,8 @@
             </div>
             <div class="auth-btn mt-4 mt-lg-0">
                 <a href="#" class="btn-second d-block d-lg-inline text-center">Masuk</a>
-                <a href="#" class="btn-first ms-lg-3 d-block d-lg-inline text-center mt-3 mt-lg-0">Daftar</a>
+                <a href="{{ route('register') }}"
+                    class="btn-first ms-lg-3 d-block d-lg-inline text-center mt-3 mt-lg-0">Daftar</a>
             </div>
         </div>
     </div>

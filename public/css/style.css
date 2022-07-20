@@ -456,10 +456,45 @@ footer ul a{
     font-size: 50px;
 }
 
+/* Register Style */
+.auth-register{
+    margin-top: 120px;
+    padding-bottom: 100px;
+    color: var(--white-color);
+}
+
+.auth-register .heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.auth-register p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 /* Small Desktop */
 @media screen and (max-width: 1500px) {
     .category .heading, .populer .heading, .pilihan .heading{
         font-size: 25px;
+    }
+
+    .auth-register{
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+    
+    .auth-register .heading{
+        font-size: 30px;
+    }
+    
+    .auth-register p{
+        font-size: 18px;
     }
 }
 
