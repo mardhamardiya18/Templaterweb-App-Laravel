@@ -1,0 +1,626 @@
+:root{
+
+    /* Color Palet */
+    --first-color : #F08E36;
+    --second-color : #D34470; 
+    --black-color : #0F0E16;
+    --white-color : #e0e0db;
+
+    /* Fonts */
+    --main-font : 'Nunito', sans-serif;
+    --logo-font :  'Lobster Two', cursive;
+}
+
+*{
+    font-family: var(--main-font);
+    list-style: none;
+    text-decoration: none !important;
+}
+
+body{
+    background-color: var(--black-color);
+    
+}
+
+.btn-first{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: var(--second-color);
+    border: 2px solid var(--second-color);
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.btn-second{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid var(--second-color);
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+.btn-first:hover{
+    background-color: #b2395d;
+    color: #c2c2bc;
+    border: 2px solid transparent;
+}
+
+.btn-second:hover{
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+.section-margin{
+    margin-top: 120px;
+}
+
+/* NAVBAR STYLE */
+.navbar .navbar-brand{
+    font-family: var(--logo-font);
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--first-color);
+}
+
+.navbar .nav-link{
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.navbar .auth-btn i{
+    color: var(--first-color);
+    font-size: 33px;
+}
+
+.navbar .auth-btn .wishlist-count, .navbar .auth-btn .cart-count{
+    top: -20%;
+    right: -20%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero{
+    margin-top: 100px;
+}
+
+.hero .container{
+    padding: 90px 85px;
+    border-radius: 20px;
+    background-image: url('../images/hero-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .heading{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.hero .subheading{
+    font-size: 18px;
+}
+
+/* Category Section */
+.category .heading, .populer .heading, .pilihan .heading{
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--first-color);
+}
+.category .row-btn a{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Populer Section */
+.populer{
+    margin-top: 120px;
+    color: var(--white-color);
+}
+
+.populer .card{
+    border: none;
+}
+
+.img-box .bg-shadow{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55.21%, #0F0E16 100%);
+    width: 100%;
+    height: 100%;
+}
+
+.img-box .categori-label{
+    background-color: var(--second-color);
+    display: inline;
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    font-size: 14px;
+}
+.populer .detail .name, .product-list .detail .name, .row-relate .detail .name{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.populer .detail .price, .product-list .detail .price, .row-relate .detail .price{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--first-color) !important;
+}
+
+.populer .detail .free, .product-list .detail .free, .row-relate .detail .free{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--first-color);
+}
+
+/* Trending Product */
+.trending{
+    margin-top: 120px;
+    padding: 70px 0;
+    background: rgba(211, 68, 112, 0.51);
+}
+
+.trending .img-box .bg-shadow{
+    background: linear-gradient(180deg, #d3446f00 55.21%, #D34470 100%);
+    width: 100%;
+    height: 100%;
+}
+
+.trending .heading{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--white-color);
+}
+
+.trending .btn-trending{
+    background-color: var(--first-color);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.trending .img-box{
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.trending .card {
+    border: none;
+}
+
+.trending .img-box .sold{
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+
+}
+
+/* Desain Pilihan */
+.pilihan{
+    margin-top: 120px;
+    color: #FFFFFE;
+}
+
+.pilihan .card{
+    border-radius: 20px;
+    border: none;
+}
+
+.pilihan .col-main .img-box img{
+    width: 640px;
+}
+
+.pilihan .col-main .categori-label{
+    font-size: 20px;
+}
+
+/* Subscription */
+.subscribe{
+    margin-top: 120px;
+}
+
+.subscribe .container{
+    background-color: var(--first-color);
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.subscribe h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+.subscribe p{
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+/* Footer */
+footer{
+    margin-top: 120px;
+    color: var(--white-color);
+}
+
+footer .brand{
+    font-family: var(--logo-font);
+    font-weight: 400;
+    color: var(--first-color);
+    font-size: 40px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer .sosmed i{
+    font-size: 40px;
+    color: var(--second-color);
+}
+
+footer ul li{
+    margin: 15px 0;
+}
+
+footer h3{
+    font-size: 25;
+    font-weight: 700;
+    color: #F08E36;
+}
+
+footer ul a{
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+/* Produk Style */
+.search{
+    margin-top: 70px;
+    padding: 70px 0px;
+    border-radius: 20px;
+    background-color: var(--first-color);
+}
+
+.search .heading{
+    font-size: 25px;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.form-search{
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+}
+
+.product-category{
+    margin-top: 70px;
+}
+
+.product-category a{
+    display: inline-block;
+    margin: 10px;
+}
+
+.product-list{
+    margin-top: 100px;
+}
+
+
+/* PRODUCT DETAIL CSS */
+.detail p{
+    color: #e6e6e0 !important;
+}
+
+.detail .rate .ico i{
+    color: rgb(187, 214, 32);
+    font-size: 30px;
+}
+
+.detail .name-product{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+.detail .owner{
+    font-size: 16px;
+}
+
+.detail .price{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.detail .price small{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.detail .view i, .detail .review i{
+    font-size: 28px;
+}
+
+.detail hr{
+    color: #FFFFFE;
+    height: 2px !important;
+}
+
+.detail .heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.detail .row-benefit .card{
+    background-color: var(--first-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.detail .row-benefit .card img{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.detail .row-relate .relate{
+    margin: 50px 0;
+}
+
+.detail .row-review i{
+    font-size: 20px;
+    color: rgb(177, 196, 0);
+}
+
+.detail .row-review .username{
+    color: var(--first-color) !important;
+    font-weight: 700;
+}
+
+/* Cart Style */
+.cart{
+    margin-top: 60px;
+}
+
+.cart .heading{
+    font-size: 30px;
+    color: var(--first-color);
+    font-weight: 700;
+}
+
+.cart table tr{
+    color: var(--white-color);
+    font-size: 20px;
+}
+
+.cart table td{
+    color: var(--white-color) !important;
+}
+
+.cart table i{
+    color: #D34470;
+    font-size: 30px;
+}
+
+.cart .additional{
+    margin-top: 70px;
+}
+
+.cart .additional label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cart .additional input{
+    width: 20px;
+    height: 20px;
+}
+
+.cart .additional .add-price{
+    color: var(--first-color);
+    margin-top: 10px !important;
+}
+
+.cart .user-info p{
+    font-size: 20px;
+}
+
+
+.cart .payment-info p{
+    font-size: 20px;
+    color: #F08E36;
+    font-weight: 700;
+}
+
+.cart .protect{
+    background-color: #F08E36;
+    border-radius: 10px;
+    padding: 20px 10px !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cart .protect i{
+    font-size: 50px;
+}
+
+/* Small Desktop */
+@media screen and (max-width: 1500px) {
+    .category .heading, .populer .heading, .pilihan .heading{
+        font-size: 25px;
+    }
+}
+
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 500px) {
+    .navbar .navbar-brand{
+        font-size: 30px;
+    }
+
+    .hero{
+        margin-top: 40px;
+        padding: 0 8px;
+    }
+
+    .hero .container{
+        padding: 40px 50px;
+    }
+
+    .hero .heading{
+        font-size: 30px;
+    }
+
+    .hero .subheading{
+        font-size: 16px;
+    }
+
+    .hero input::placeholder{
+        font-size: 12px;
+    }
+
+    .category .heading, .populer .heading{
+        font-size: 25px;
+    }
+
+    .category .row-btn a{
+        font-size: 14px;
+    }
+
+    /* Popular Product */
+    .populer .card{
+        padding: 0 25px;
+        margin-top: 20px;
+    }
+    .populer .owner{
+        font-size: 12px;
+    }
+
+    /* Trending Product */
+
+    .trending .card{
+        padding: 0 25px;
+    }
+
+    .trending .img-box .sold{
+        font-size: 14px;
+    }
+
+    /* Produk pilihan */
+    .pilihan .col-main .categori-label{
+        font-size: 14px;
+    }
+
+    .subscribe .container{
+        padding: 40px;
+    }
+
+    .subscribe h3{
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--white-color);
+    }
+
+    .subscribe p{
+        font-size: 16px ;
+    }
+
+    footer .copy p{
+        font-size: 14px;
+    }
+
+    /* Product Page */
+    .search{
+        margin-top: 50px;
+        padding: 50px 0px;
+       
+    }
+    .form-search{
+        width: 80%;
+    }
+
+    .form-search input::placeholder{
+        font-size: 14px;
+    }
+
+    .product-category a{
+        font-size: 14px;
+    }
+
+    .product-list{
+        margin-top: 60px;
+    }
+
+    .product-list .card{
+        padding: 0 30px;
+        margin-top: 10px;
+    }
+
+
+    /* Produk Detail */
+    .detail .rate .ico i{
+        font-size: 20px;
+    }
+    
+    .detail .name-product{
+        font-size: 25px;
+    }
+    
+    .detail .owner{
+        font-size: 12px;
+    }
+    
+    .detail .price{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .detail .price small{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .detail .view i, .detail .review i{
+        font-size: 20px;
+    }
+    
+    .detail hr{
+        color: #FFFFFE;
+        height: 2px !important;
+    }
+
+    .detail .row-benefit .card{
+        font-size: 16px;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    
+    .detail .row-benefit .card img{
+        width: 40px;
+    }
+
+    .detail .row-relate .card {
+        padding: 0 20px;
+    }
+
+    .detail .row-review .date{
+        font-size: 12px;
+    }
+
+    .cart table td{
+       font-size: 14px;
+    }
+}
