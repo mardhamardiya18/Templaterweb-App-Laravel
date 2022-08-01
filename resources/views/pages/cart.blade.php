@@ -33,11 +33,17 @@
                                         <img src="images/product1.png" class="img-fluid" width="100" alt="" />
                                         <div class="detail ms-sm-4 mt-2 mt-sm-0">
                                             <p class="tb-name m-0">Bookstore website</p>
-                                            <p class="tb-owner m-0">By UICreativeStudio</p>
+                                            <small class=" tb-owner m-0">By UICreativeStudio</small>
                                         </div>
                                     </div>
                                 </td>
-                                <td>Bundle Design</td>
+                                <td>
+                                    <select name="paket" id="" class="form-select w-75">
+                                        <option value="desain">Bundle Design</option>
+                                        <option value="code">Bundle Code</option>
+                                        <option value="desain&code">Bundle Design + Bundle Code</option>
+                                    </select>
+                                </td>
                                 <td>Web App</td>
                                 <td>Rp 120,000</td>
                                 <td class="text-center">
@@ -50,11 +56,15 @@
                                         <img src="images/product3.png" class="img-fluid" width="100" alt="" />
                                         <div class="detail ms-sm-4 ms-sm-4 mt-2 mt-sm-0">
                                             <p class="tb-name m-0">Bookstore website</p>
-                                            <p class="tb-owner m-0">By UICreativeStudio</p>
+                                            <small class="tb-owner m-0">By UICreativeStudio</small>
                                         </div>
                                     </div>
                                 </td>
-                                <td>Bundle Code</td>
+                                <td> <select name="paket" id="" class="form-select w-75">
+                                        <option value="desain">Bundle Design</option>
+                                        <option value="code">Bundle Code</option>
+                                        <option value="desain&code">Bundle Design + Bundle Code</option>
+                                    </select></td>
                                 <td>Web App</td>
                                 <td>Rp 120,000</td>
                                 <td class="text-center">
@@ -66,7 +76,7 @@
                 </div>
             </div>
 
-            <div class="row additional">
+            {{-- <div class="row additional">
                 <div class="col-12 mb-4">
                     <h1 class="heading">Paket Tambahan</h1>
                 </div>
@@ -103,7 +113,7 @@
                         </label>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="row user-info text-white mt-5">
                 <div class="col-12 mb-4">
@@ -132,8 +142,8 @@
                     <p class="fullName m-0">Rp 0</p>
                 </div>
                 <div class="col-lg-3 col-md-2 mt-3 mt-sm-0">
-                    <small>Ongkir</small>
-                    <p class="email m-0">Free</p>
+                    <small>Pajak</small>
+                    <p class="email m-0">0 %</p>
                 </div>
                 <div class="col-lg-2 col-md-3 mt-3 mt-sm-0">
                     <small>Total Pembayaran</small>

@@ -22,6 +22,19 @@ body{
     
 }
 
+.sale{
+    animation: sale .8s linear infinite;
+}
+
+@keyframes sale {
+    0%, 100%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
 .btn-first{
     padding: 10px 25px;
     border-radius: 10px;
@@ -139,6 +152,10 @@ body{
 .populer .detail .name, .product-list .detail .name, .row-relate .detail .name{
     font-size: 22px;
     font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     color: var(--white-color);
 }
 

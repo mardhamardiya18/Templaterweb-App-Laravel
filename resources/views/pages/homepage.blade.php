@@ -72,13 +72,14 @@
                             </div>
                         </div>
                         <div class="detail d-flex justify-content-between mt-4">
-                            <div>
-                                <a href="#" class="name">Plantshop</a>
+                            <div class="detail-1">
+                                <a href="#" class="name" title="Plantshop website kekinian">Plantshop website
+                                    kekinian</a>
                                 <p class="owner mt-1">By <a href="#">UICreativeStudio</a></p>
                             </div>
-                            <div>
-                                <p class="free m-0 mb-1 text-center rounded-3 py-1">Free</p>
-                                <p class="views">2.1k Views</p>
+                            <div class="detail-1">
+                                <p class="free m-0 mb-1 text-center rounded-3 py-1 px-3">Free</p>
+
                             </div>
                         </div>
                     </div>
@@ -95,13 +96,13 @@
                             </div>
                         </div>
                         <div class="detail d-flex justify-content-between mt-4">
-                            <div>
-                                <a href="#" class="name">BeCreative</a>
+                            <div class=" w-50">
+                                <a href="#" class="name">BeCreative Lorem, ipsum dolor.</a>
                                 <p class="owner mt-1">By <a href="#">UICreativeStudio</a></p>
                             </div>
                             <div>
                                 <p class="price m-0 mb-1">Rp 120,000</p>
-                                <p class="views">2.1k Views</p>
+
                             </div>
                         </div>
                     </div>

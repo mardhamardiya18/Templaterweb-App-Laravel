@@ -10,11 +10,11 @@
                 <a class="nav-link active" href="{{ route('product') }}">Produk</a>
                 <a class="nav-link" href="#">Bundle Design</a>
                 <a class="nav-link" href="#">Bundle Code</a>
-                <a class="nav-link" href="#">Paket</a>
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Flash Sale <small class="sale badge text-bg-warning">Now</small></a>
+
             </div>
             <div class="auth-btn mt-4 mt-lg-0">
-                <a href="#" class="btn-second d-block d-lg-inline text-center">Masuk</a>
+                <a href="{{ route('login') }}" class="btn-second d-block d-lg-inline text-center">Masuk</a>
                 <a href="{{ route('register') }}"
                     class="btn-first ms-lg-3 d-block d-lg-inline text-center mt-3 mt-lg-0">Daftar</a>
             </div>
